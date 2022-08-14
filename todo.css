@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.upper-container-1{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+#task{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#list{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: .5;
+}
+
+.upper-container-2{
+    display: flex;
+    margin-left: 350px;
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+}
+#addlist{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    opacity: .5;
+    padding-top: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 10px;
+    margin-top: 10px;
+    border: 1px solid green;
+    height: 45vh;
+    width:30%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+}
+.div1{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    border-bottom: 1px solid black;
+}
+.div1 a{
+    text-decoration: none;
+    color: red;
+}
+.div2{
+    font-size: 22px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+.div3{
+    text-align: left;
+    font-size: 20px;
+}
+.div3 label{
+    cursor: pointer;
+}
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.notshow{
+    width: 700px;
+}
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.9);
+    display: none;
+}
+#pop:target{
+display: block;
+}
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 30vh;
+    width: 27%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    padding: 20px;
+    z-index: 99;
+}
+.add-new{
+    opacity: .7;
+    font-size: 17px;
+}
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 85%;
+    height: 25%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+}
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 130px;
+    font-size: 20px;
+}
+
+.overlay-2{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.9);
+    display: none;
+}
+#pop-2:target{
+display: flex;
+}
+#pop-2{
+}
+.pop-up1{
+    margin-bottom: 20px;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 30vh;
+    width: 27%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+    z-index: 99;
+}
+.arrow{
+    display: flex;
+    margin-top: 10px;
+}
+#add-new1{
+   margin: 10px 0 20px 50px;
+    font-size: 25px;
+}
+.pop-upbar1{
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 85%;
+    height: 25%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+}
+.pop-up-button1{
+    width: 25%;
+    height: 20%;
+    margin-top: 55px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 130px;
+    font-size: 20px;
+}

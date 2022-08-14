@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+<body>
+    <div class="notshow">
+        <div class=" upper-container">
+            <div class="upper-container-1">
+    <span id="task">Tasks</span>
+                <span id="list">Lists</span>
+            </div>
+            <div class="upper-container-2">
+                <div id="circle">
+                    <a href="#pop" ><i class ="fa fa-plus-circle" style="font-size:48px;color:red"></i></a>
+                </div>
+                <div id="addlist">
+                    Add List
+                </div>
+            </div>
+        </div>
+        <div class="main">
+        <div class="card1">
+            <div class="div1">
+                <a href="#pop-2" ><p>Trip To Paris</p></a>
+            </div>
+            <div class="div2">
+                <p>Completed Task</p>
+            </div>
+            <div class="div3">
+                <form action="">
+                    <input type="checkbox" name="todo" id="todo">
+                    <label for="todo">Pending Task</label>
+                </form>
+            </div>
+        </div>
+    <div class="card1">
+        <div class="div1">
+            <p>Trip To Paris</p>
+        </div>
+        <div class="div2">
+            <p>Completed Task</p>
+        </div>
+        <div class="div3">
+            <form action="">
+                <input type="checkbox" name="todo" id="todo-1">
+                <label for="todo-1">Pending Task</label>
+            </form>
+        </div>
+    </div>
+    <div class="card1">
+        <div class="div1">
+            <p>Trip To Paris</p>
+        </div>
+        <div class="div2">
+            <p>Completed Task</p>
+        </div>
+        <div class="div3">
+            <form action="">
+                <input type="checkbox" name="todo" id="todo-3">
+                <label for="todo-3" >Pending Task</label>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div  id="pop" class="overlay">
+    <div class="pop-up">
+        <center><p id="add-new">Add new List</p>
+        <textarea class="pop-upbar"></textarea></center>
+        <a href="#"><button class="pop-up-button">ADD</button></a>
+    </div>
+    </div>
+    <div id="pop-2" class="overlay-2">
+    <div class="pop-up1">
+        <div class="arrow">
+            <a href="#"> <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i></a>
+        <center><p id="add-new1">Add new Task</p>
+        </div>
+        <textarea class="pop-upbar1"></textarea></center>
+       <button class="pop-up-button1">ADD</button>
+    </div>
+    </div>
+</body>
+</html>
